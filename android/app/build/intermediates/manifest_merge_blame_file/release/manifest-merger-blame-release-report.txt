@@ -1,60 +1,231 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="br.com.reactnative.danilo"
-4    android:versionCode="3"
-5    android:versionName="3.0" >
+3    package="com.meuapp5"
+4    android:versionCode="5"
+5    android:versionName="5.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml
+8-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml
+9-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:4:22-64
-12
-13    <application
-13-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:6:5-25:19
-14        android:name="com.meuapp5.MainApplication"
-14-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:7:7-38
-15        android:allowBackup="false"
-15-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:11:7-34
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6636202a2e344f69092b239199c01f49\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:9:7-41
-18        android:label="@string/app_name"
-18-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:8:7-39
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:10:7-52
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:12:7-38
-21        <activity
-21-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:13:7-24:18
-22            android:name="com.meuapp5.MainActivity"
-22-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:14:9-37
-23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-23-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:16:9-118
-24            android:exported="true"
-24-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:19:9-32
-25            android:label="@string/app_name"
-25-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:15:9-41
-26            android:launchMode="singleTask"
-26-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:17:9-40
-27            android:windowSoftInputMode="adjustResize" >
-27-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:18:9-51
-28            <intent-filter>
-28-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:20:9-23:25
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:21:13-65
-29-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:21:21-62
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:22:13-73
-31-->C:\Users\Danilo de Oliveira\Desktop\meuapp\android\app\src\main\AndroidManifest.xml:22:23-70
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+11-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+12-->[:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+13-->[:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+14
+15    <application
+15-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:6:5-25:19
+16        android:name="com.meuapp5.MainApplication"
+16-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\51658e9b3f6c6edf24a99b3edb3b2f2f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:9:7-41
+20        android:label="@string/app_name"
+20-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:8:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:12:7-38
+23        <activity
+23-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:13:7-24:18
+24            android:name="com.meuapp5.MainActivity"
+24-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:14:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+25-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:16:9-118
+26            android:exported="true"
+26-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:19:9-32
+27            android:label="@string/app_name"
+27-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:15:9-41
+28            android:launchMode="singleTask"
+28-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:17:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:18:9-51
+30            <intent-filter>
+30-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:20:9-23:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:21:13-65
+31-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:21:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:22:13-73
+33-->C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:22:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-13:36
+38            android:name="app_data_collection_default_enabled"
+38-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-63
+39            android:value="true" />
+39-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-33
+40
+41        <service
+41-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-84
+43            android:directBootAware="true"
+43-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-43
+44            android:exported="false" >
+44-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+45            <meta-data
+45-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+46-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-120
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+49                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+49-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+51        </service>
+52
+53        <provider
+53-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-29:38
+54            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+54-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-88
+55            android:authorities="com.meuapp5.reactnativefirebaseappinitprovider"
+55-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-86
+56            android:exported="false"
+56-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37
+57            android:initOrder="99" />
+57-->[:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-35
+58
+59        <activity
+59-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+60            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+60-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+61            android:excludeFromRecents="true"
+61-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+62            android:exported="true"
+62-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+63            android:launchMode="singleTask"
+63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+65            <intent-filter>
+65-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+66-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+70
+71                <data
+71-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+72                    android:host="firebase.auth"
+72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+73                    android:path="/"
+73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+74                    android:scheme="genericidp" />
+74-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+78            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+83            <intent-filter>
+83-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+84-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+88
+89                <data
+89-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+90                    android:host="firebase.auth"
+90-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+91                    android:path="/"
+91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+92                    android:scheme="recaptcha" />
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+93            </intent-filter>
+94        </activity>
+95
+96        <provider
+96-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+97            android:name="com.google.firebase.provider.FirebaseInitProvider"
+97-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+98            android:authorities="com.meuapp5.firebaseinitprovider"
+98-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+100            android:exported="false"
+100-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+101            android:initOrder="100" />
+101-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+102
+103        <activity
+103-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+104            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+104-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+105            android:excludeFromRecents="true"
+105-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+108        <!--
+109            Service handling Google Sign-In user revocation. For apps that do not integrate with
+110            Google Sign-In, this service will never be started.
+111        -->
+112        <service
+112-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+113            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+113-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+114            android:exported="true"
+114-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+115            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+115-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+116            android:visibleToInstantApps="true" />
+116-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b492d2e12d8be0594326f4fe4703aee8\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\07adfbb77313190d435cf7e83f85bfa3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\07adfbb77313190d435cf7e83f85bfa3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\07adfbb77313190d435cf7e83f85bfa3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+126    </application>
+127
+128</manifest>

@@ -4,7 +4,7 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "br.com.reactnative.danilo",
+  "applicationId": "com.meuapp5",
   "variantName": "release",
   "elements": [
     {

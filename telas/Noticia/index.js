@@ -78,6 +78,16 @@ const PrimeiraTela = () => {
                         color="#4f7199"
                         onPress={() => {auth().signOut(); navegar("Inicio");} }
                     />
+
+                    <View style={{marginTop: 15}}></View>
+
+                    <Button 
+                        title="Meu Perfil"
+                        color="#1a753b"
+                        onPress={ () => navegar("Perfil")} 
+                    />
+
+
                 </View>
 
 
@@ -119,6 +129,7 @@ const PrimeiraTela = () => {
                     <Text style={styles.titulo}>
                         Hogwarts Legacy é crackeado e jogadores vão a loucura
                     </Text>
+
                     <Image
                         // style={styles.imagem}
                         style={{ width: '100%', height: 220, borderRadius: 7 }}
@@ -136,13 +147,14 @@ const PrimeiraTela = () => {
                         Cibercriminosos estão se aproveitando do hype do jogo para disponiblizar torrents do game com muito,
                         mas assim, MUITOS vírus. Então, pense bem antes de comter um crime e ainda por cima ter seu PC comprometido.
                     </Text>
+
                     <Button
                         title="Continuar leitura"
                         color="#0a6b5b"
                         onPress={() => Alert.alert('Esta função ainda está em desenvolvimento')}
                     />
-                </View>
 
+                </View>
 
 
                 <View style={styles.separator} />

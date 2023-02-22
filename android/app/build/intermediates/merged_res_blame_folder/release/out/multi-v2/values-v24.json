@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\meuapp\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\appEtec\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Danilo de Oliveira\\.gradle\\caches\\transforms-3\\acc940f9d1e2fbe78507503786269365\\transformed\\appcompat-1.0.2\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Danilo de Oliveira\\.gradle\\caches\\transforms-3\\322f28ed195cd3f019bc4c587258ba75\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

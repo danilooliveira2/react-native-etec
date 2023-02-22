@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\meuapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\appEtec\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Danilo de Oliveira\\.gradle\\caches\\transforms-3\\cec484bb6ec593f3f661a71d093953a0\\transformed\\material-1.1.0\\res\\values-large-v4\\values-large-v4.xml",

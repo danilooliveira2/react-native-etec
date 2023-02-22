@@ -14,6 +14,7 @@ import Login from './telas/Login';
 import IMC from './telas/IMC/imc.js';
 import Noticia from './telas/Noticia/';
 import Inicio from './telas/Splash';
+import Perfil from './telas/Perfil';
 // import Contato from './src/pages/Contato';
 
 //Criação da Lista de Telas
@@ -40,6 +41,8 @@ export default function App(){
           }}
           />
     
+
+
         <Stack.Screen 
         name="Login" 
         component={Login} 
@@ -48,11 +51,8 @@ export default function App(){
           headerStyle:{
             backgroundColor: '#1e368f'
           },
-
           headerTintColor: '#fff',
           headerTitleAlign: 'center'
-
-          
         }}
         />
 
@@ -65,10 +65,26 @@ export default function App(){
           headerStyle:{
             backgroundColor: '#4900b6'
           },
-
           headerTintColor: '#fff',
         }}
         />
+
+
+
+      <Stack.Screen 
+        name="Perfil" 
+        component={Perfil} 
+        options={{
+          title: 'Meu Perfil',
+          headerStyle:{
+            backgroundColor: '#1a753b'
+          },
+          headerTintColor: '#fff',
+        }}
+        />
+
+
+
 
         <Stack.Screen 
         name="IMC"        // Esse é o nome na tela, para ser usado nas rotas.

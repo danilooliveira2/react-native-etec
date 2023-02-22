@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\meuapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "C:\\Users\\Danilo de Oliveira\\Desktop\\appEtec\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Danilo de Oliveira\\.gradle\\caches\\transforms-3\\07adfbb77313190d435cf7e83f85bfa3\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tl\\values.xml",
