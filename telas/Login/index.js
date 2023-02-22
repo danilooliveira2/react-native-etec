@@ -14,8 +14,8 @@ function TelaLoginSenha() {
         navigation.navigate(nomeTela)
     }
     const [nome, setNome] = useState('');
-    const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
+    const [email, setEmail] = useState('danilo@hotmail.com');
+    const [senha, setSenha] = useState('1&7ysad#Ujh');
     const [logado, setLogado] = useState(null);
 
 
