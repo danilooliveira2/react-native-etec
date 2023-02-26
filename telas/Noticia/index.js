@@ -95,10 +95,46 @@ const PrimeiraTela = () => {
                 <View style={styles.separator} />
 
                 {/* Notícia */}
+                <View>
+
+<Text style={styles.titulo}>
+    Hogwarts Legacy é crackeado e jogadores vão a loucura
+</Text>
+
+<Image
+    // style={styles.imagem}
+    style={{ width: '100%', height: 220, borderRadius: 7 }}
+    source={{
+        uri: 'https://cdn2.unrealengine.com/everything-we-know-about-hogwarts-legacy-1920x1080-f68fc603c1ae.png',
+    }}
+/>
+
+<Text style={{ marginBottom: 10, marginTop: 5, marginHorizontal: 5, textAlign: 'justify' }} >
+    O jogo era muito esperado, principalmente pelos fãs de Harry Potter. Mas quando falamos em games, principalmente os single-player, as empresas desenvolvedoras estão abertas a terem seus jogos pirateados, ou seja, crackeados.
+    {'\n\n'}
+    E com o jogo do mundo bruxo não seria diferente.
+    Em poucos os dias, o game já recebeu uma versão da famosa "Steam Verde" e já está rodando por aí. Entretanto, juntamente com isso, há uma versão do jogo repleta de malwares.
+    {'\n\n'}
+    Cibercriminosos estão se aproveitando do hype do jogo para disponiblizar torrents do game com muito,
+    mas assim, MUITOS vírus. Então, pense bem antes de comter um crime e ainda por cima ter seu PC comprometido.
+</Text>
+
+<Button
+    title="Continuar leitura"
+    color="#0a6b5b"
+    onPress={() => Alert.alert('Esta função ainda está em desenvolvimento')}
+/>
+
+</View>
+
                 {/* <Separator /> */}
+            
+                <View style={styles.separator} />
+
+            
                 <View>
                     <Text style={styles.titulo}>
-                        ChatGPT vai mudar nosso mundo, diz Bill Gates
+                        Chats de IA vão mudar nosso mundo, diz Bill Gates
                     </Text>
                     <Image
                         // style={styles.imagem}
@@ -122,40 +158,6 @@ const PrimeiraTela = () => {
                         onPress={() => Alert.alert('Esta função ainda está em desenvolvimento')}
                     />
                 </View>
-                <View style={styles.separator} />
-
-                <View>
-
-                    <Text style={styles.titulo}>
-                        Hogwarts Legacy é crackeado e jogadores vão a loucura
-                    </Text>
-
-                    <Image
-                        // style={styles.imagem}
-                        style={{ width: '100%', height: 220, borderRadius: 7 }}
-                        source={{
-                            uri: 'https://cdn2.unrealengine.com/everything-we-know-about-hogwarts-legacy-1920x1080-f68fc603c1ae.png',
-                        }}
-                    />
-
-                    <Text style={{ marginBottom: 10, marginTop: 5, marginHorizontal: 5, textAlign: 'justify' }} >
-                        O jogo era muito esperado, principalmente pelos fãs de Harry Potter. Mas quando falamos em games, principalmente os single-player, as empresas desenvolvedoras estão abertas a terem seus jogos pirateados, ou seja, crackeados.
-                        {'\n\n'}
-                        E com o jogo do mundo bruxo não seria diferente.
-                        Em poucos os dias, o game já recebeu uma versão da famosa "Steam Verde" e já está rodando por aí. Entretanto, juntamente com isso, há uma versão do jogo repleta de malwares.
-                        {'\n\n'}
-                        Cibercriminosos estão se aproveitando do hype do jogo para disponiblizar torrents do game com muito,
-                        mas assim, MUITOS vírus. Então, pense bem antes de comter um crime e ainda por cima ter seu PC comprometido.
-                    </Text>
-
-                    <Button
-                        title="Continuar leitura"
-                        color="#0a6b5b"
-                        onPress={() => Alert.alert('Esta função ainda está em desenvolvimento')}
-                    />
-
-                </View>
-
 
                 <View style={styles.separator} />
                 <View style={{ marginTop: 10 }} />

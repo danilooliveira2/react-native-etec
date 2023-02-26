@@ -5,6 +5,7 @@ INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\A
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:1:1-26:12
 MERGED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_firestore] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-32:12
 MERGED from [:react-native-safe-area-context] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
@@ -23,8 +24,10 @@ MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] C:\Users\Danilo de Ol
 MERGED from [com.facebook.fresco:imagepipeline:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\f63fa2d339c8d38055cfc47d4e329993\transformed\jetified-imagepipeline-2.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\edf58622a1472c2bee619f3a747864ec\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\5a8244c19863fab9fb2bd4f39d26f3a4\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ea1a147b57dd59ae9895527c75f5e5c1\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\535b9fd60c75761cfe642d89b00ee0ff\transformed\jetified-firebase-appcheck-interop-16.1.1\AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b1f211e1a42d950474a824ac23694b28\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\cec484bb6ec593f3f661a71d093953a0\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -34,6 +37,7 @@ MERGED from [com.facebook.fresco:middleware:2.5.0] C:\Users\Danilo de Oliveira\.
 MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\f6aad18e188c23f82892c7efc6881dec\transformed\jetified-ui-common-2.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\0879375ee33ce8cc4ef4fb376794b6ae\transformed\jetified-soloader-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.10.3] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\c96e913b60bf2b008a2474f0b4ebc6f0\transformed\jetified-soloader-0.10.3\AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9861e7e2dcabaf6987edab73e42f6404\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\d86ee986d3194fd883b42b0dc98671c9\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\f15fd28bf77c650b24994caa663d91be\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\c854971da170676363e172a55d434faf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -42,6 +46,7 @@ MERGED from [com.google.android.gms:play-services-auth:20.3.0] C:\Users\Danilo d
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\64efb223f9c213b402f83be86c340d13\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\41e3994fa588d407484f300c3280b80f\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6b3c3c9ae65e54b8e25047da9c19ad6f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6f63e94afa3cadc294f278843c688381\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\d68c20420bea794d0aa6d59ea0b72107\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\07adfbb77313190d435cf7e83f85bfa3\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
@@ -70,6 +75,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Danilo de Oli
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\c94ee5ebc459d8779af070d9fd66309b\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ed099f1b82fce0e8360eb33ed36f310b\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\75cbfecc12caf22797d00e714ca8d1e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\8e2da931d93b620b3b30ed219b9aa9b1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:1:1-26:12
@@ -91,6 +97,8 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 	android:name
@@ -101,10 +109,14 @@ MERGED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\app
 MERGED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-30:19
 MERGED from [com.facebook.react:react-native:0.68.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\0664c7bd2b0a692934dcf050654312b4\transformed\jetified-react-native-0.68.2\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.68.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\0664c7bd2b0a692934dcf050654312b4\transformed\jetified-react-native-0.68.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ea1a147b57dd59ae9895527c75f5e5c1\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ea1a147b57dd59ae9895527c75f5e5c1\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\535b9fd60c75761cfe642d89b00ee0ff\transformed\jetified-firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\535b9fd60c75761cfe642d89b00ee0ff\transformed\jetified-firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\cec484bb6ec593f3f661a71d093953a0\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -169,6 +181,8 @@ INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\A
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml
 MERGED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\firestore\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
 MERGED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
 MERGED from [:react-native-safe-area-context] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
@@ -205,10 +219,14 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Danilo de
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\edf58622a1472c2bee619f3a747864ec\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\5a8244c19863fab9fb2bd4f39d26f3a4\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\5a8244c19863fab9fb2bd4f39d26f3a4\transformed\jetified-imagepipeline-base-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ea1a147b57dd59ae9895527c75f5e5c1\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ea1a147b57dd59ae9895527c75f5e5c1\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\535b9fd60c75761cfe642d89b00ee0ff\transformed\jetified-firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\535b9fd60c75761cfe642d89b00ee0ff\transformed\jetified-firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\b1f211e1a42d950474a824ac23694b28\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
@@ -227,6 +245,8 @@ MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Danilo de Oliveira\.gr
 MERGED from [com.facebook.fresco:soloader:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\0879375ee33ce8cc4ef4fb376794b6ae\transformed\jetified-soloader-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.10.3] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\c96e913b60bf2b008a2474f0b4ebc6f0\transformed\jetified-soloader-0.10.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.10.3] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\c96e913b60bf2b008a2474f0b4ebc6f0\transformed\jetified-soloader-0.10.3\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9861e7e2dcabaf6987edab73e42f6404\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9861e7e2dcabaf6987edab73e42f6404\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\d86ee986d3194fd883b42b0dc98671c9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\d86ee986d3194fd883b42b0dc98671c9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\f15fd28bf77c650b24994caa663d91be\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -243,6 +263,8 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Dan
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\41e3994fa588d407484f300c3280b80f\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6b3c3c9ae65e54b8e25047da9c19ad6f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6b3c3c9ae65e54b8e25047da9c19ad6f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6f63e94afa3cadc294f278843c688381\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\6f63e94afa3cadc294f278843c688381\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\294c32beb3ecdfe6331e2b57e4421ea4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\d68c20420bea794d0aa6d59ea0b72107\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
@@ -299,6 +321,8 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Danilo de Oliveira\
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\ed099f1b82fce0e8360eb33ed36f310b\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\75cbfecc12caf22797d00e714ca8d1e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\75cbfecc12caf22797d00e714ca8d1e5\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\8e2da931d93b620b3b30ed219b9aa9b1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\8e2da931d93b620b3b30ed219b9aa9b1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Danilo de Oliveira\Desktop\appEtec\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -315,8 +339,12 @@ ADDED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\app
 		ADDED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9861e7e2dcabaf6987edab73e42f6404\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9861e7e2dcabaf6987edab73e42f6404\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [:react-native-firebase_auth] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
 meta-data#app_data_collection_default_enabled
@@ -327,6 +355,8 @@ ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appE
 		ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9395501508827c0e8f986f05ddc5afb4\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:32:9-36:35
@@ -355,6 +385,12 @@ ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appE
 		ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-35
 	android:name
 		ADDED from [:react-native-firebase_app] C:\Users\Danilo de Oliveira\Desktop\appEtec\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-88
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.2] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\3f36eaf2cd58db6d2fafc6a677c9b3c6\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:20:17-111
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Danilo de Oliveira\.gradle\caches\transforms-3\9a6558ed47733e884c277427b144609f\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
