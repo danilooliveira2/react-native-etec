@@ -21,13 +21,13 @@ function TelaLoginSenha() {
 
     useEffect(() => {
         const unsubscribe = auth().onAuthStateChanged(user => {
-          if (user) {
-            navigation.replace('Noticia'); // redireciona para tela inicial
-          }
+            if (user) {
+                navigation.replace('Noticia'); // redireciona para tela inicial
+            }
         });
-    
+
         return unsubscribe; // limpa a inscrição quando a tela é desmontada
-      }, []);
+    }, []);
 
 
     //Realizar login
@@ -83,43 +83,49 @@ function TelaLoginSenha() {
     }
 
     return (
-        <View style={styles.container}>
 
-            <Text style={{ textAlign: 'center', lineHeight: 25, fontSize: 16 }}>Realize seu cadastro em nosso aplicativo. {'\n'}É grátis.</Text>
-            <View style={{ marginBottom: 20 }}></View>
-            {/* <TextInput
+
+       
+
+            <View style={styles.container}>
+
+                <Text style={{ textAlign: 'center', lineHeight: 25, fontSize: 16 }}>Realize seu cadastro em nosso aplicativo. {'\n'}É grátis.</Text>
+                <View style={{ marginBottom: 20 }}></View>
+                {/* <TextInput
                 style={styles.input}
                 placeholder="Nome"
                 value={nome}
                 onChangeText={setNome}
             /> */}
-            <TextInput
-                style={styles.input}
-                placeholder="E-mail"
-                value={email}
-                onChangeText={setEmail}
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Senha"
-                value={senha}
-                onChangeText={setSenha}
-                secureTextEntry
-            />
+                <TextInput
+                    style={styles.input}
+                    placeholder="E-mail"
+                    value={email}
+                    onChangeText={setEmail}
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Senha"
+                    value={senha}
+                    onChangeText={setSenha}
+                    secureTextEntry
+                />
 
-            <View style={{ marginBottom: 20 }}></View>
+                <View style={{ marginBottom: 20 }}></View>
 
-            <TouchableOpacity style={styles.button} onPress={handleCadastro}>
-                <Text style={styles.buttonText}>Realizar Cadastro</Text>
-            </TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={handleCadastro}>
+                    <Text style={styles.buttonText}>Realizar Cadastro</Text>
+                </TouchableOpacity>
 
-            <View style={{ marginBottom: 20 }}></View>
+                <View style={{ marginBottom: 20 }}></View>
 
-            <TouchableOpacity style={styles.button2} onPress={signIn_Logar}>
-                <Text style={styles.buttonText}>Realizar Login</Text>
-            </TouchableOpacity>
+                <TouchableOpacity style={styles.button2} onPress={signIn_Logar}>
+                    <Text style={styles.buttonText}>Realizar Login</Text>
+                </TouchableOpacity>
 
-        </View>
+            </View>
+
+      
 
     );
 }
